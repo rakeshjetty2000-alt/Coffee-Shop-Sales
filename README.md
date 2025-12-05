@@ -1,9 +1,17 @@
-# Coffee-Shop-Sales
+# ☕ Coffee Shop Sales Analytics Dashboards
 ### 1. Project Overview
 
-This project is a comprehensive Power BI dashboard designed to analyze and visualize sales performance for a Coffee Shop business. It provides insights into key business metrics, customer behavior, product performance, and time-based sales trends.
+This project presents an end-to-end business intelligence solution built using Power BI and MySQL to analyze sales performance for a coffee shop. The goal of this dashboard is to help stakeholders understand revenue trends, product performance, customer behavior, and operational efficiency through interactive visualizations.
 
-The goal of this dashboard is to help stakeholders make data‑driven decisions to improve operational efficiency and boost revenue.
+### 2. Key Objectives
+
+Centralize and clean raw sales data stored in MySQL
+
+Build a dynamic and interactive Power BI dashboard
+
+Provide insights into daily/weekly/monthly sales, product demand, store performance, and peak business hours
+
+Enable data-drive
 
 
 ### 2. Key Features of the Dashboard
@@ -32,21 +40,6 @@ Data Modeling (DAX, Relationships)
 Data Cleaning & Transformation (Power Query)
 
 Visual Analytics
-
-📁 Repository Structure
-📦 Coffee-Shop-Sales-PowerBI
- ┣ 📄 Coffee_Shop_Sales.pbix      # Main Power BI dashboard file
- ┣ 📄 README.md                   # Project documentation (this file)
- ┗ 📁 Assets/                     # (Optional) Images/Screenshots of dashboard
-
- 
-Dashboard Preview
-
-(Add screenshots in /Assets folder and reference them here)
-
-Example:
-
-![Sales Overview](Assets/sales_overview.png)
 
 
 
