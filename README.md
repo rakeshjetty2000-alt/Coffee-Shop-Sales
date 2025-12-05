@@ -19,7 +19,7 @@ This project presents an end-to-end business intelligence solution built using P
 • Interactive Filters – Slicers for date, product, category, and location help refine analysis.
 
 
-### 3.Data Source
+### 3. Data Source
 
 • Database: MySQL
 
@@ -81,15 +81,15 @@ The data model for this project follows a Star Schema design to ensure optimized
 
 **Fact Table — Coffee Shop Sales**
 
-This is the central table in the model and contains all transactional data
+- This is the central table in the model and contains all transactional data
 
-This table records every sale made across different coffee shop locations and products.
+- This table records every sale made across different coffee shop locations and products.
 
 **Dimension Table — Date Table**
 
-A dedicated calendar table used to support time-intelligence calculations.
+- A dedicated calendar table used to support time-intelligence calculations.
 
-The Date Table has a one-to-many (1:*) relationship with the transaction_date field in the fact table, allowing accurate filtering and time-based analysis.
+- The Date Table has a one-to-many (1:*) relationship with the transaction_date field in the fact table, allowing accurate filtering and time-based analysis.
 
 **Measures Table**
 
@@ -98,29 +98,29 @@ This table does not participate in relationships but helps keep the model clean 
 
 **Schema Type — Star Schema**
 
-• The model forms a classic Star Schema where:
+- The model forms a classic Star Schema where:
 
-• The Coffee Shop Sales table is the central fact table
+- The Coffee Shop Sales table is the central fact table
 
-• The Date Table is a supporting dimension table
+- The Date Table is a supporting dimension table
 
-• The Measures Table provides semantic structure for KPIs
+- The Measures Table provides semantic structure for KPIs
 
-• This structure ensures efficient querying, enhanced readability, and strong performance within Power BI.
+- This structure ensures efficient querying, enhanced readability, and strong performance within Power BI.
 
 
 
 ### 7. Insights & Findings
 
-Some key insights uncovered from the analysis:
+• Some key insights uncovered from the analysis:
 
-Weekends show higher sales volume compared to weekdays.
+• Weekends show higher sales volume compared to weekdays.
 
-Peak hours fall between 8 AM – 11 AM, driven by breakfast and morning coffee.
+• Peak hours fall between 8 AM – 11 AM, driven by breakfast and morning coffee.
 
-Certain product categories (e.g., coffee and pastries) dominate revenue.
+• Certain product categories (e.g., coffee and pastries) dominate revenue.
 
-Specific store locations consistently outperform others.
+• Specific store locations consistently outperform others.
 
 ### 8.	Dashboard Preview
 
