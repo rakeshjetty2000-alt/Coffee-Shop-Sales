@@ -85,43 +85,32 @@ This is the central table in the model and contains all transactional data
 
 This table records every sale made across different coffee shop locations and products.
 
-2. Dimension Table — Date Table
+**Dimension Table — Date Table**
 
 A dedicated calendar table used to support time-intelligence calculations.
-It contains fields such as:
-
-- Date
-
-- Day Name
-
-- Day No
-
-- Month & Year
-
-- Month Name
 
 The Date Table has a one-to-many (1:*) relationship with the transaction_date field in the fact table, allowing accurate filtering and time-based analysis.
 
-3. Measures Table
+**Measures Table**
 
 A separate table created solely for storing DAX measures (e.g., Above Avg Bars).
 This table does not participate in relationships but helps keep the model clean and organized by separating calculations from raw data.
 
-⭐ Schema Type — Star Schema
+**Schema Type — Star Schema**
 
-The model forms a classic Star Schema where:
+• The model forms a classic Star Schema where:
 
-The Coffee Shop Sales table is the central fact table
+• The Coffee Shop Sales table is the central fact table
 
-The Date Table is a supporting dimension table
+• The Date Table is a supporting dimension table
 
-The Measures Table provides semantic structure for KPIs
+• The Measures Table provides semantic structure for KPIs
 
-This structure ensures efficient querying, enhanced readability, and strong performance within Power BI.
+• This structure ensures efficient querying, enhanced readability, and strong performance within Power BI.
 
 
 
-### 4. Insights & Findings
+### 7. Insights & Findings
 
 Some key insights uncovered from the analysis:
 
@@ -133,12 +122,8 @@ Certain product categories (e.g., coffee and pastries) dominate revenue.
 
 Specific store locations consistently outperform others.
 
-### 6.	Screenshots / Demos
+### 8.	Dashboard Preview
 
 ![Dashboard Preview](https://github.com/rakeshjetty2000-alt/Coffee-Shop-Sales/blob/main/Coffee%20Shop%20Sales%20.png)
 
-5. Dashboard Preview
 
-(Add screenshots in /Assets folder and reference them here)
-
-Example:https://github.com/rakeshjetty2000-alt/Coffee-Shop-Sales/blob/main/Coffee%20Shop%20Sales%20.png
