@@ -46,39 +46,34 @@ Sales Performance Overview
 
 - Total Revenue, Total Orders, Total Quantity Sold
 
-• Daily, Monthly & Yearly trends
+- Daily, Monthly & Yearly trends
 
-• Average order value
+- Average order value
 
-# Product Analytics
+ Product Analytics
 
-• Top-selling products
+- Top-selling products
 
-• Category-wise performance (coffee, bakery, beverages, etc.)
+- Category-wise performance (coffee, bakery, beverages, etc.)
 
-• Low-performing products for strategic improvement
+- Low-performing products for strategic improvement
 
-## Store Performance
+ Store Performance
 
-• Comparison between different store locations
+- Comparison between different store locations
 
-• Revenue contribution share
+- Revenue contribution share
 
-• Peak sales days & busiest hours
+- Peak sales days & busiest hours
 
-## Customer Insights (optional if included)
 
-• Repeat vs. new customers
+ Interactive Visuals
 
-• Customer purchasing patterns
+- Slicers for filtering by date, product category, store, etc.
 
-## Interactive Visuals
+- Tooltips for detailed insights
 
-• Slicers for filtering by date, product category, store, etc.
-
-• Tooltips for detailed insights
-
-• Trend lines and KPI cards for at-a-glance summaries
+- Trend lines and KPI cards for at-a-glance summaries
 
 
 
