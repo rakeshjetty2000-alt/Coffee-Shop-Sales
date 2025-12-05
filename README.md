@@ -79,27 +79,9 @@ Visual Analytics
 
 The data model for this project follows a Star Schema design to ensure optimized performance, simplified DAX calculations, and a clean relational structure.
 
-Fact Table — Coffee Shop Sales
+**Fact Table — Coffee Shop Sales**
 
-This is the central table in the model and contains all transactional data, including:
-
-- product_category
-
-- product_detail
-
-- product_id
-
-- product_type
-
-- Sales (fact measure)
-
-- store_id
-
-- store_location
-
-- transaction_hour
-
-- transaction_date
+This is the central table in the model and contains all transactional data
 
 This table records every sale made across different coffee shop locations and products.
 
