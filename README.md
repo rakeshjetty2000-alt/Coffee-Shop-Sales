@@ -38,7 +38,9 @@ Visual Analytics
  ┣ 📄 Coffee_Shop_Sales.pbix      # Main Power BI dashboard file
  ┣ 📄 README.md                   # Project documentation (this file)
  ┗ 📁 Assets/                     # (Optional) Images/Screenshots of dashboard
-📷 Dashboard Preview
+
+ 
+Dashboard Preview
 
 (Add screenshots in /Assets folder and reference them here)
 
