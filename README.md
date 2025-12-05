@@ -66,4 +66,4 @@ Specific store locations consistently outperform others.
 
 (Add screenshots in /Assets folder and reference them here)
 
-Example:
+Example:https://github.com/rakeshjetty2000-alt/Coffee-Shop-Sales/blob/main/Coffee%20Shop%20Sales%20.png
