@@ -29,7 +29,7 @@ This project presents an end-to-end business intelligence solution built using P
 
 
 
-### 3. Tools & Technologies
+### 4. Tools & Technologies
 
 MySQL (data storage & querying)
 
@@ -41,8 +41,8 @@ Data Cleaning & Transformation (Power Query)
 
 Visual Analytics
 
-### 4. Dashboard Features
-## Sales Performance Overview
+### 5. Dashboard Features
+** Sales Performance Overview**
 
 • Total Revenue, Total Orders, Total Quantity Sold
 
@@ -50,7 +50,7 @@ Visual Analytics
 
 • Average order value
 
-## Product Analytics
+# Product Analytics
 
 • Top-selling products
 
