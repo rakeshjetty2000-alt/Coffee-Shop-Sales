@@ -5,13 +5,13 @@ This project presents an end-to-end business intelligence solution built using P
 
 ### 2. Key Objectives
 
-Centralize and clean raw sales data stored in MySQL
+• Centralize and clean raw sales data stored in MySQL
 
-Build a dynamic and interactive Power BI dashboard
+• Build a dynamic and interactive Power BI dashboard
 
-Provide insights into daily/weekly/monthly sales, product demand, store performance, and peak business hours
+• Provide insights into daily/weekly/monthly sales, product demand, store performance, and peak business hours
 
-Enable data-drive
+• Enable data-drive
 
 
 ### 2. Key Features of the Dashboard
