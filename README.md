@@ -1,5 +1,5 @@
 # Coffee-Shop-Sales
-1. Project Overview
+### 1. Project Overview
 
 This project is a comprehensive Power BI dashboard designed to analyze and visualize sales performance for a Coffee Shop business. It provides insights into key business metrics, customer behavior, product performance, and time-based sales trends.
 
