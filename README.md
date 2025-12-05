@@ -63,8 +63,8 @@ Certain product categories (e.g., coffee and pastries) dominate revenue.
 Specific store locations consistently outperform others.
 
 ### 6.	Screenshots / Demos
-(https://github.com/username/repo/assets/image.png)
-Example: ![Dashboard Preview](https://github.com/rakeshjetty2000-alt/Coffee-Shop-Sales/blob/main/Coffee%20Shop%20Sales%20.png)
+
+![Dashboard Preview](https://github.com/rakeshjetty2000-alt/Coffee-Shop-Sales/blob/main/Coffee%20Shop%20Sales%20.png)
 
 5. Dashboard Preview
 
