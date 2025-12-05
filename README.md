@@ -6,7 +6,7 @@ This project is a comprehensive Power BI dashboard designed to analyze and visua
 The goal of this dashboard is to help stakeholders make data‑driven decisions to improve operational efficiency and boost revenue.
 
 
-2. Key Features of the Dashboard
+### 2. Key Features of the Dashboard
 
 Total Sales Overview – Track revenue, transactions, and average order values.
 
@@ -21,7 +21,7 @@ Customer Behavior – Understand buying patterns and peak business hours.
 Interactive Filters – Slicers for date, product, category, and location help refine analysis.
 
 
-3. Tools & Technologies
+### 3. Tools & Technologies
 
 MySQL (data storage & querying)
 
@@ -50,7 +50,7 @@ Example:
 
 
 
-4. Insights & Findings
+### 4. Insights & Findings
 
 Some key insights uncovered from the analysis:
 
