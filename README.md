@@ -42,7 +42,7 @@ Data Cleaning & Transformation (Power Query)
 Visual Analytics
 
 ### 5. Dashboard Features
-Sales Performance Overview
+• Sales Performance Overview
 
 - Total Revenue, Total Orders, Total Quantity Sold
 
@@ -50,7 +50,7 @@ Sales Performance Overview
 
 - Average order value
 
- Product Analytics
+ • Product Analytics
 
 - Top-selling products
 
@@ -58,7 +58,7 @@ Sales Performance Overview
 
 - Low-performing products for strategic improvement
 
- Store Performance
+ • Store Performance
 
 - Comparison between different store locations
 
@@ -67,13 +67,75 @@ Sales Performance Overview
 - Peak sales days & busiest hours
 
 
- Interactive Visuals
+ • Interactive Visuals
 
 - Slicers for filtering by date, product category, store, etc.
 
 - Tooltips for detailed insights
 
 - Trend lines and KPI cards for at-a-glance summaries
+
+### 6. Data Model
+
+The data model for this project follows a Star Schema design to ensure optimized performance, simplified DAX calculations, and a clean relational structure.
+
+Fact Table — Coffee Shop Sales
+
+This is the central table in the model and contains all transactional data, including:
+
+- product_category
+
+- product_detail
+
+- product_id
+
+- product_type
+
+- Sales (fact measure)
+
+- store_id
+
+- store_location
+
+- transaction_hour
+
+- transaction_date
+
+This table records every sale made across different coffee shop locations and products.
+
+2. Dimension Table — Date Table
+
+A dedicated calendar table used to support time-intelligence calculations.
+It contains fields such as:
+
+- Date
+
+- Day Name
+
+- Day No
+
+- Month & Year
+
+- Month Name
+
+The Date Table has a one-to-many (1:*) relationship with the transaction_date field in the fact table, allowing accurate filtering and time-based analysis.
+
+3. Measures Table
+
+A separate table created solely for storing DAX measures (e.g., Above Avg Bars).
+This table does not participate in relationships but helps keep the model clean and organized by separating calculations from raw data.
+
+⭐ Schema Type — Star Schema
+
+The model forms a classic Star Schema where:
+
+The Coffee Shop Sales table is the central fact table
+
+The Date Table is a supporting dimension table
+
+The Measures Table provides semantic structure for KPIs
+
+This structure ensures efficient querying, enhanced readability, and strong performance within Power BI.
 
 
 
