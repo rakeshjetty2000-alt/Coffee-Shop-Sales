@@ -3,30 +3,30 @@
 
 This project presents an end-to-end business intelligence solution built using Power BI and MySQL to analyze sales performance for a coffee shop. The goal of this dashboard is to help stakeholders understand revenue trends, product performance, customer behavior, and operational efficiency through interactive visualizations.
 
-### 2. Key Objectives
-
-• Centralize and clean raw sales data stored in MySQL
-
-• Build a dynamic and interactive Power BI dashboard
-
-• Provide insights into daily/weekly/monthly sales, product demand, store performance, and peak business hours
-
-• Enable data-drive
-
 
 ### 2. Key Features of the Dashboard
 
-Total Sales Overview – Track revenue, transactions, and average order values.
+• Total Sales Overview – Track revenue, transactions, and average order values.
 
-Product Performance – Identify bestselling products and categories.
+• Product Performance – Identify bestselling products and categories.
 
-Location-Based Insights – Compare sales performance across shop locations.
+• Location-Based Insights – Compare sales performance across shop locations.
 
-Time Series Analysis – View sales trends by day, month, and hour.
+• Time Series Analysis – View sales trends by day, month, and hour.
 
-Customer Behavior – Understand buying patterns and peak business hours.
+• Customer Behavior – Understand buying patterns and peak business hours.
 
-Interactive Filters – Slicers for date, product, category, and location help refine analysis.
+• Interactive Filters – Slicers for date, product, category, and location help refine analysis.
+
+
+### 3.Data Source
+
+• Database: MySQL
+
+• Tables Included: Sales Transactions, Products, Store Details, Calendar Table (custom)
+
+• ETL: Data extraction using SQL queries, followed by transformations in Power BI’s Power Query Editor### 3.Data Source
+
 
 
 ### 3. Tools & Technologies
@@ -40,6 +40,45 @@ Data Modeling (DAX, Relationships)
 Data Cleaning & Transformation (Power Query)
 
 Visual Analytics
+
+### 4. Dashboard Features
+## Sales Performance Overview
+
+• Total Revenue, Total Orders, Total Quantity Sold
+
+• Daily, Monthly & Yearly trends
+
+• Average order value
+
+## Product Analytics
+
+• Top-selling products
+
+• Category-wise performance (coffee, bakery, beverages, etc.)
+
+• Low-performing products for strategic improvement
+
+## Store Performance
+
+• Comparison between different store locations
+
+• Revenue contribution share
+
+• Peak sales days & busiest hours
+
+## Customer Insights (optional if included)
+
+• Repeat vs. new customers
+
+• Customer purchasing patterns
+
+## Interactive Visuals
+
+• Slicers for filtering by date, product category, store, etc.
+
+• Tooltips for detailed insights
+
+• Trend lines and KPI cards for at-a-glance summaries
 
 
 
