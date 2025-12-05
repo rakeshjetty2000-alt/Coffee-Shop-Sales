@@ -42,9 +42,9 @@ Data Cleaning & Transformation (Power Query)
 Visual Analytics
 
 ### 5. Dashboard Features
-** Sales Performance Overview**
+Sales Performance Overview
 
-• Total Revenue, Total Orders, Total Quantity Sold
+- Total Revenue, Total Orders, Total Quantity Sold
 
 • Daily, Monthly & Yearly trends
 
